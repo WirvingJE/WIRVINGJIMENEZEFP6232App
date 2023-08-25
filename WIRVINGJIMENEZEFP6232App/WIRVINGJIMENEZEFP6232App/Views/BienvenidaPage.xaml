@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WIRVINGJIMENEZEFP6232App.Views.BienvenidaPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="50, 25, 50,25" >
+
+            <Button x:Name="BtnLogin" Text="INGRESAR" BackgroundColor="#A25BB7" CornerRadius="15" Clicked="BtnLogin_Clicked" />
+            <Button Grid.Column="0" Grid.Row="0"
+                            x:Name="BtnVerPreguntas" Text="Ver todas las preguntas"
+                            BackgroundColor="BurlyWood" TextColor="White"
+                            HeightRequest="60" WidthRequest="40"
+                            CornerRadius="25" BorderColor="#B6B4B4" BorderWidth="2"
+                            Clicked="BtnVerPreguntas_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
